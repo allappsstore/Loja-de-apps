@@ -11,7 +11,7 @@ header {
 }
 
 body {
-    background-color: #03313c;
+    background-color: #062d37;
 }
 
 .active {
@@ -28,6 +28,18 @@ body {
 
 .text {
     color: #fff;
+  
+}
+
+.cld {
+    display: flex;
+    color:#b17214;
+    width:100%;
+    height:100%;
+    border:solid 1px;
+    border-radius:20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container {
@@ -38,7 +50,39 @@ body {
         padding: 1.5rem 3rem;  
         
 }
-    
+
+.botao{
+    border: solid 1px blue;
+    font-size: 25px;
+    width: 230px;
+    height: 50px;
+    border-radius: 100px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+
+
+.ibo_pro_player {
+ 
+    display: flex;
+    color:#b17214;
+    width:100%;
+    height:100%;
+    border:solid 1px;
+    border-radius:20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
 
 .nav_bar {
     display: flex;
