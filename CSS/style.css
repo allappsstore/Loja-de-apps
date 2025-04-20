@@ -147,6 +147,10 @@ body {
     .nav_bar {
         padding: 1.5rem 4rem;
     }
+    .img {
+      width: 200px;
+      height: auto;
+    }
     .nav_item {
         display: none;
 
